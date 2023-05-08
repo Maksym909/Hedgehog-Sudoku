@@ -1,4 +1,4 @@
-﻿// did you take this task from codeWars ?
+﻿//who`ll be check it, did you take this task from codeWars ? 
 //row 
 function validRow(board, row, col, value) {
     // j column
@@ -27,7 +27,7 @@ function validColumn(board, row, col, value) {
     return true;
 }
 
-//The sub-boxes function.
+//sub-boxes
 function validBox(board, row, col, value) {
     const startRow = row - (row % 3), startCol = col - (col % 3);
 
